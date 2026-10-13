@@ -57,7 +57,7 @@ project:
     - script: ./K32L3A60xxx_cm4_flash.scf
       for-compiler: AC6
   packs:
-    - pack: ARM::CMSIS
+    - pack: ARM::CMSIS@6.4.0
     - pack: ARM::CMSIS-Compiler
     - pack: ARM::CMSIS-RTX
     - pack: NXP::FRDM-K32L3A6_BSP
